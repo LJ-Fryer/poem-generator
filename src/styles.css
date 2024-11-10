@@ -25,6 +25,7 @@ form {
 footer {
   text-align: center;
   font-size: 12px;
+  margin-top: 50px;
 }
 a {
   color: rgba(255, 51, 102, 0.85);
@@ -38,7 +39,6 @@ a {
   padding: 14px;
   width: 70%;
   border: 1px solid rgba(32, 29, 34, 0.35);
-  border-radius: 10px;
   border-radius: 50px;
 }
 .submit-button {
@@ -56,8 +56,10 @@ a {
   font-size: 16px;
   line-height: 2;
   background-color: white;
-  margin-bottom: 30px;
   padding: 20px;
   border-left: 3px solid rgba(255, 51, 102, 0.85);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.poem strong {
+  color: rgba(255, 51, 102, 0.85);
 }
