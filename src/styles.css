@@ -15,12 +15,7 @@ h1 {
   margin: 0;
 }
 form {
-  background-color: white;
-  margin-bottom: 30px;
-  padding: 30px 20px;
   display: flex;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 footer {
   text-align: center;
@@ -29,6 +24,19 @@ footer {
 }
 a {
   color: rgba(255, 51, 102, 0.85);
+}
+.form-container {
+  background-color: white;
+  margin-bottom: 30px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.hints {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 5px;
+  opacity: 0.6;
 }
 .container {
   margin: 60px auto;
@@ -54,7 +62,7 @@ a {
 }
 .poem {
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.5;
   background-color: white;
   padding: 20px;
   border-left: 3px solid rgba(255, 51, 102, 0.85);
@@ -62,4 +70,15 @@ a {
 }
 .poem strong {
   color: rgba(255, 51, 102, 0.85);
+}
+.hidden {
+  display: none;
+}
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
